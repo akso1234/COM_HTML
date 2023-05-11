@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Table style</title>
+        <style>
+            table, td, th {
+                border: 1px solid black;
+                border-collapse: collapse;
+
+            }
+            table {
+                caption-side: bottom;
+                width: 600px;
+            }
+            th {
+                background-color:  lightgray;
+            }
+            td {
+                height: 40px;
+            }
+            .col-name {
+                width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>
+                <p><strong>커뮤니티활동지표</strong></p>
+            </caption>
+            <colgroup>
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>이름</th>
+                    <th>대표색</th>
+                    <th>획득</th>
+                    <th>사용</th>
+                </tr>
+            </thead>
+
+        </table>
+    </body>
+</html>
